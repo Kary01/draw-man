@@ -46,3 +46,21 @@ body {
   left: 95px;
   top: 100px;
 }
+
+.expression {
+  width: 100px;
+  height: 25px;
+  background-color: var(--skin);
+  position: absolute;
+  left: 50px;
+  top: 90px;
+}
+
+.beard {
+  width: 200px;
+  height: 220px;
+  background-color: var(--black);
+  position: absolute;
+  top: 170px;
+  border-radius: 70px 70px 100px 100px;
+}
