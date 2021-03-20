@@ -64,3 +64,34 @@ body {
   top: 170px;
   border-radius: 70px 70px 100px 100px;
 }
+
+.nose {
+  width: 50px;
+  height: 50px;
+  background-color: var(--skin);
+  border-radius: 100px;
+  position: absolute;
+  top: 56%;
+  left: 38%;
+  transform: translate(0, -100%);
+}
+
+.ear-left {
+  width: 40px;
+  height: 40px;
+  background-color: var(--skin);
+  border-radius: 100px;
+  position: absolute;
+  top: 40%;
+  left: -10%;
+}
+
+.ear-right {
+  width: 40px;
+  height: 40px;
+  background-color: var(--skin);
+  border-radius: 100px;
+  position: absolute;
+  top: 40%;
+  left: 90%;
+}
