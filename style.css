@@ -2,7 +2,8 @@
   --skin: #f6c09c;
   --skin-shadow: #ed927d;
   --background: #ed4042;
-  --red: #ed2860;
+  --red: #f52f67;
+  --red-shadow: #e27180;
   --dark-red: #680524;
   --black: #00243a;
   --white: #fff;
@@ -11,6 +12,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--background);
 }
 
 .container {
@@ -109,7 +111,7 @@ body {
   width: 60px;
   height: 10px;
   background-color: var(--white);
-  border-radius: 0 0 5px 0 ;
+  border-radius: 0 0 10px 0 ;
   position: absolute;
   top: 59.5%;
   left: 30%;
@@ -152,4 +154,33 @@ body {
   top: 90%;
   left: 15%;
   z-index: -1;
+}
+
+.detail{
+  width: 3px;
+  height: 15px;
+  background-color: var(--red-shadow);
+  border-radius: 10px;
+  position: absolute;
+  top: 44%;
+}
+
+.detail-one-left {
+  transform: rotate(-45deg);
+  left: -4%;
+}
+
+.detail-one-right {
+  transform: rotate(45deg);
+  left: -4%;
+}
+
+.detail-two-left {
+  transform: rotate(-45deg);
+  left: 103%;
+}
+
+.detail-two-right {
+  transform: rotate(45deg);
+  left: 103%;
 }
